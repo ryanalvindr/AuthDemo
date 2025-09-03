@@ -1,0 +1,16 @@
+# Xcode
+DerivedData/
+build/
+*.xcworkspace/xcuserdata/
+xcuserdata/
+
+# SwiftPM
+.swiftpm/
+.build/
+
+# CocoaPods (keep Podfile, ignore Pods folder)
+Pods/
+Podfile.lock
+
+# macOS
+*.DS_Store
