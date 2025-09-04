@@ -12,11 +12,19 @@ It does not connect to a real API. Instead, it simulates a login process with a 
 ## Requirements
 - Xcode 15+
 - iOS 13+
-- Swift 10+
+- Swift 5+
 - CocoaPods or Swift Package Manager
 
 ## Setup
-1) `pod install` (or add SnapKit via SPM)  
-2) `open AuthDemo.xcworkspace`  
+1) pod install
+2) open AuthDemo.xcworkspace  
 3) Build & run  
+
+## Test Accounts
+The login credentials are hardcoded to simulate an API response.  
+Use any of the following to log in successfully:
+
+- Username: ryan - Password: password1  
+- Username: testuser2 - Password: qwerty 
+- Username: testuser3 - Password: 1234 
 
